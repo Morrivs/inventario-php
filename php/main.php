@@ -1,7 +1,7 @@
 <?php
 //conexion a la bd
 function conexion(){
-    $pdo = new PDO('mysql:host=http://sql109.infinityfree.com;dbname=if0_36359285_inventario','if0_36359285','richardbetacode');
+    $pdo = new PDO('mysql:host=localhost;dbname=inventario','root','');
     return $pdo;
 }
 
